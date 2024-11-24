@@ -1,0 +1,43 @@
+body {
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-color: palevioletred;
+  background-color: rgb(227, 17, 83);
+}
+
+.container {
+  text-align: center;
+  margin-top: -10%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#color-box {
+  width: 800px;
+  height: 800px;
+  border-color: peru;
+  margin: 10px;
+  border: 1px solid;
+}
+
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-color: aqua;
+  color: rgb(18, 11, 2);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover{
+    background-color: bisque;
+}
